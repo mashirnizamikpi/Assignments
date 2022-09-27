@@ -20,10 +20,6 @@ public class Area {
 		this.height=height;
 		this.width=width;
 	}
-	void Area()
-	{
-		perimeter=0;
-	}
 
 void disp()
 {
