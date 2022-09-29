@@ -5,8 +5,7 @@ package Assignment3;
 
 public class Cat extends Animal {
 
-	@Override//It is basically for abstraction
-	
+	@Override	
 	
 	String Name() {
 		// TODO Auto-generated method stub

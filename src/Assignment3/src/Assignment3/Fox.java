@@ -2,7 +2,7 @@ package Assignment3;
 //extend means Inheritance to abstract class
 public class Fox extends Animal {
 //inheritance and abstraction in on class
-	@Override  //It is basically for abstraction
+	@Override  
 	String Name() {
 		// TODO Auto-generated method stub
 		System.out.println("Fox");
