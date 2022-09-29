@@ -8,4 +8,5 @@ public abstract class Animal {
 	abstract int Number();
 	
 	 
+	
 }

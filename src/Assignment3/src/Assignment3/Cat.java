@@ -7,6 +7,7 @@ public class Cat extends Animal {
 
 	@Override//It is basically for abstraction
 	
+	
 	String Name() {
 		// TODO Auto-generated method stub
 		System.out.println("Cat");

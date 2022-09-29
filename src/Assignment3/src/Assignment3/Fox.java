@@ -9,6 +9,7 @@ public class Fox extends Animal {
 		return null;
 	}
 
+	
 	@Override
 	String Class() {
 		// TODO Auto-generated method stub
