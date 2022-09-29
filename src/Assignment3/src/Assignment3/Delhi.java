@@ -9,8 +9,7 @@ public interface Delhi {
 class Test implements Delhi{
 	public static void main(String args[])
 	{
-		String capital="India";
-		
+				
 		Test t = new Test();
 		t.capital();
 		
