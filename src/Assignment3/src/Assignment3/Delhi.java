@@ -3,6 +3,7 @@ package Assignment3;
 public interface Delhi {
 	void capital();
 	
+	
 }
 
 class Test implements Delhi{
