@@ -4,27 +4,27 @@ interface State{
 	void region();
 }
 
-class Haryana implements State{
 
-@Override
-public void region() {
-	// TODO Auto-generated method stub
-	
-}
 
-public class Punjab {
+public class Punjab implements State{
 	
 	
 	public static void main(String args[])
     {
   
         // lambda expression - Second way to call Functional Interface
-      State haryana = () ->System.out.println("Capital is Chandigarh");
-      haryana.region();
+      State punjab = () ->System.out.println("Capital is Chandigarh");
+      punjab.region();
     }
+
+	@Override
+	public void region() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 
-}
+
 
 
