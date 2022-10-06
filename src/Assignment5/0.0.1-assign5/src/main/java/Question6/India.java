@@ -65,10 +65,12 @@ public class India {
 		No.retainAll(we);
 		
 		
+		String a = No.get(0);
+		int c_index = Ne.indexOf(a);
+		System.out.println(c_index);
 		System.out.println(No);
-		int pos = Ne.indexOf("Mumbai");
-		System.out.println("Position of Element is :"+pos);
-	return pos;
+		return c_index;
+		
 	}
 		
 
