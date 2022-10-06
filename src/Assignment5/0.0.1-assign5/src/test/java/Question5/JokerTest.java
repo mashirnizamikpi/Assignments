@@ -12,13 +12,15 @@ public class JokerTest {
 	public void ans() {
 		Joker jo = new Joker();
 		String legs = jo.dance();
-		String net = jo.dance1();
+		String rat = jo.dance1();
+		
 
 
 
 		
-		assertEquals("Kathakali", legs);
-		assertEquals("Odissi", net);
+	//	assertEquals("Kathakali", legs);
+		assertEquals("Joker 1 is dancing Kathakali", legs);
+		assertEquals("Joker 2 is dancing Kuchipudi", rat);
 
 
 	}

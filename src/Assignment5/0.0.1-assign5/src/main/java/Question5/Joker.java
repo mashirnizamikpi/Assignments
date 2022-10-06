@@ -15,6 +15,17 @@ public class Joker implements Joke{
 		
 		// TODO Auto-generated constructor stub
 	}
+	
+	public String DanceIndia() {
+		// TODO Auto-generated method stub
+		return Name +"is dancing"+ Dance ;
+	}
+
+	public int DanceIndia(int age) {
+		// TODO Auto-generated method stub
+		return age;
+	}
+	
 
 public static void main(String args[]) {
 
@@ -63,22 +74,16 @@ public static void main(String args[]) {
 
 public String dance() {
 	// TODO Auto-generated method stub
-	return "Kathakali";
+	return "Joker 1 is dancing Kathakali";
 }
 public String dance1() {
 	// TODO Auto-generated method stub
-	return "Odissi";
+	return "Joker 2 is dancing Kuchipudi";
 }
 
-public String Dance() {
-	// TODO Auto-generated method stub
-	return null;
-}
 
-public String Name() {
-	// TODO Auto-generated method stub
-	return null;
-}
+
+
 
 
 }
